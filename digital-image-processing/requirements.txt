@@ -1,0 +1,7 @@
+# Recommended Python packages for TDT4195 on PyPI
+jupyter
+numpy
+pillow
+scipy
+matplotlib
+scikit-image
