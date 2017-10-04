@@ -7,17 +7,17 @@ These guides will introduce you to the basic tools needed to complete the digita
 Python
 ======
 
-Just open the `Jupyter notebook`_ on GitHub to start reading.
+Simply open the `Jupyter notebook`_ on GitHub to start reading.
 
-If you want to run the `Jupyter`_ notebook on your local machine you will have to (i) clone the repository and (ii) start Jupyter via the terminal using the following command:
+If you want to run the `Jupyter`_ notebook on your local machine you will have to: (i) clone the repository and (ii) start Jupyter via the terminal using the following command:
 
 .. code-block:: bash
 
   jupyter notebook
 
-When Jupyter is running, you can point your web browser at ``http://localhost:8888`` to start using the notebook. The start screen displays all available Jupyter notebooks in the current directory. You may have to change directory to find the notebook you want to read.
+When Jupyter is running, you can point your web browser at ``http://localhost:8888`` to start using the notebook. The front page displays all available Jupyter notebooks in the current directory. You may have to change directory to find the notebook you want to read.
 
-The above assumes that Jupyter notebook has been installed, e.g.:
+The above assumes that Jupyter notebook has been installed. This can, for example, be done using pip:
 
 .. code-block:: bash
 

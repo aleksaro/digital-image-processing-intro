@@ -2,11 +2,11 @@
 TDT4195 :: Digital Image Processing
 ===================================
 
-This directory contains information for getting started with the assignments in the digital image processing part of the `NTNU`_ course `TDT4195`_.
+This directory contains information for getting started with the assignments in the digital image processing part of the `NTNU`_ course `TDT4195 - Visual Computing Fundamentals`_.
 
-Assignments can be completed in the programming language of your choice, however, it might be a good idea to select one that supports matrix and image processing operations. The computers at the computer lab support `Python`_ and `MATLAB`_.
+Assignments can be completed in the programming language of your choice, however, it may be a good idea to select one that support matrix and image processing operations. The computers in the computer lab support `Python`_ and `MATLAB`_.
 
-The following Python packages are installed on the computer lab:
+The following Python packages are installed on the lab computers:
 
 +-----------------+------------------------------------------------------------------------------------+
 | Library         | Function                                                                           |
@@ -26,7 +26,7 @@ The following Python packages are installed on the computer lab:
 Getting started
 ===============
 
-To get started with the assignments, we have created two introductory guides: one for Python and another for MATLAB. Both guides can be found in ``getting-started`` subdirectory:
+To get started with the assignments, we have created two introductory guides: one for Python and another for MATLAB. Both guides can be found in the ``getting-started`` subdirectory:
 
 * `Python guide`_
 * `MATLAB guide`_
@@ -43,14 +43,14 @@ Below are a few different ways to set up your own computer for either Python or 
 Python
 ------
 
-There are multiple ways to install Python. This section outlines some options for installing Python on Linux, Windows, and Mac OS X operating systems. When using Python in combination with the aforementioned packages suitable for digital image processing, it is recommended to install Python through one of the following means:
+There are multiple ways to install Python. This section outlines some options for installing Python on Linux, Windows, and Mac OS X operating systems.
 
-* **[option 1 - *] Anaconda** The easiest way to get quickly started is to install `Anaconda`_. It is a Python distribution that comes with its own virtual environment tool ``conda`` and a slew of the most popular Python packages. Please check out the relevant part of the `Anaconda documentation`_ for how to install it on Linux, Windows, and Mac OS X systems.
+* **[option 1 - *] Anaconda** The easiest way to get quickly started is to install `Anaconda`_. This is a Python distribution that comes with its own virtual environment tool ``conda`` and a slew of the most popular Python packages. Please check out the relevant part of the `Anaconda documentation`_ for how to install it on Linux, Windows, and Mac OS X systems.
 
 
 * **[option 2 - Windows] WinPython** Take a look at `WinPython`_ if you want a similar, but more portable Python distribution compared to Anaconda on Windows.
 
-* **[option 3 - Linux] Manual installation** If you have access to a terminal with Python and ``pip`` installed you can easily create a virtual environment with the packages specified in ``requirements.txt``. To set it up using ``virtualenv``, clone the repository and move into *this* directory using ``cd``:
+* **[option 3 - Linux] Manual installation** If you have access to a terminal with Python and ``pip`` installed, then you can easily create a virtual environment with the packages specified in ``requirements.txt``. To set it up using ``virtualenv``, clone the repository and move into *this* directory using ``cd``:
 
 .. code-block:: bash
 
@@ -61,7 +61,7 @@ There are multiple ways to install Python. This section outlines some options fo
   # Work on assignment
   deactivate                         # Deactivate virtual environment
 
-You can also install Python using the installer on the `Python`_ website, however, it is more cumbersome to install math heavy packages like NumPy and SciPy.
+You can also install Python using the installer on the `Python`_ website, however, it is more cumbersome to install math heavy packages like NumPy and SciPy this way.
 
 
 MATLAB
@@ -73,7 +73,7 @@ MATLAB is *not* a free piece of software and you will need a license to run it. 
 .. Links
 
 .. _NTNU: https://www.ntnu.edu/
-.. _TDT4195: https://www.ntnu.edu/studies/courses/TDT4195/
+.. _TDT4195 - Visual Computing Fundamentals: https://www.ntnu.edu/studies/courses/TDT4195/
 .. _Python: https://www.python.org/
 .. _MATLAB: https://www.mathworks.com
 .. _NumPy: http://www.numpy.org/
