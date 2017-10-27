@@ -2,6 +2,7 @@
 jupyter
 numpy
 pillow
+imageio
 scipy
 matplotlib
 scikit-image

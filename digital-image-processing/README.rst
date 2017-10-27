@@ -15,6 +15,8 @@ The following Python packages are installed on the lab computers:
 +-----------------+------------------------------------------------------------------------------------+
 | `Pillow`_       | A PIL (Python Imaging Library) fork                                                |
 +-----------------+------------------------------------------------------------------------------------+
+| `imageio`_      | A library for reading and writing a range of image data                            |
++-----------------+------------------------------------------------------------------------------------+
 | `SciPy`_        | Includes a slew of modules that operate on NumPy arrays                            |
 +-----------------+------------------------------------------------------------------------------------+
 | `matplotlib`_   | A 2D plotting package                                                              |
@@ -78,6 +80,7 @@ MATLAB is *not* a free piece of software and you will need a license to run it. 
 .. _MATLAB: https://www.mathworks.com
 .. _NumPy: http://www.numpy.org/
 .. _Pillow: https://python-pillow.org/
+.. _imageio: https://imageio.github.io/
 .. _SciPy: https://www.scipy.org/
 .. _matplotlib: http://matplotlib.org/
 .. _scikit-image: http://scikit-image.org/

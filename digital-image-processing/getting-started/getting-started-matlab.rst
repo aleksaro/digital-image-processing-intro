@@ -537,9 +537,31 @@ As before, plots can be superimposed. Here we let the Gaussian probability densi
 
 .. image:: images/multiple_gaussian.png
 
+The following piece of code uses an outer product to compute arbitrary square 2D Gaussian kernels. This may be useful for the assignments.
 
-Loading and saving images
-=========================
+.. code-block:: matlab
+
+  size = 128;
+  std = 20.0;
+
+  s = (size - 1) / 2;
+  h = -s:s;
+  h = exp(-h.^2 / (2 * std.^2));
+  h = h.' * h;
+
+  sumh = sum(h(:));
+  if 0.0 ~= sumh
+    h = h / sumh;
+  end
+
+  % Using `[]` converts the display range to `[min(I(:)) max(I(:))]`
+  imshow(h, []);
+
+.. image:: images/2d_gaussian.png
+
+
+Reading and writing images
+==========================
 
 Reading and writing images are done using the |imread|_ and |imwrite|_ functions, respectively.
 
@@ -547,7 +569,7 @@ Reading and writing images are done using the |imread|_ and |imwrite|_ functions
 Images as arrays
 ================
 
-Now that we know how to load images, let's load an image and display it using MATLAB.
+Now that we know how to read images, let's read an image and display it using MATLAB.
 
 .. code-block:: matlab
 
@@ -558,7 +580,7 @@ Now that we know how to load images, let's load an image and display it using MA
 
 .. image:: images/image.png
 
-Images loaded this way are put straight into MATLAB arrays, which means we can use everything we learned above to modify them. Let's try that now by transforming the image we loaded above using the natural logarithm.
+Images read this way are put straight into MATLAB arrays, which means we can use everything we learned above to modify them. Let's try that now by transforming the image we read above using the natural logarithm.
 
 .. code-block:: matlab
 
