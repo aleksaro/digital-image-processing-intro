@@ -1,6 +1,6 @@
-===========================================
-Digital Image Processing :: Getting Started
-===========================================
+===============
+Getting Started
+===============
 
 These guides will introduce you to the basic tools needed to complete the digital image processing assignments in `TDT4195`_ using either `Python`_ or `MATLAB`_.
 
@@ -25,6 +25,8 @@ The above assumes that Jupyter notebook has been installed. This can, for exampl
 
 As mentioned in the notebook, **Shift-Enter** will run the currently selected cell.
 
+Finally, a `word of wisdom`_: please be aware that notebooks such as this should never be used as a replacement for creating scripts and / or modules.
+
 
 MATLAB
 ======
@@ -39,4 +41,5 @@ Open the `MATLAB guide`_ and start reading. If you want to execute the code loca
 .. _MATLAB: https://www.mathworks.com
 .. _Jupyter notebook: ./getting-started-python.ipynb
 .. _Jupyter: https://jupyter.org/
+.. _word of wisdom: https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/preview
 .. _MATLAB guide: ./getting-started-matlab.rst
